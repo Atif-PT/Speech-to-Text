@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natural Reader</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <h1>Natural Reader</h1>
+  </header>
+  <div class="container main-container">
+    <main>
+      <form id="speechForm"> 
+        <label for="Speech Box"></label><br>
+        <textarea id="speechBox" name="speechBox" rows="10" cols="100" placeholder="Speech Output. . ."></textarea><br>
+        <button type="button" id="play"> 
+          <i class="fa-solid fa-play"></i> 
+        </button>
+        <button type="button" id="pause">
+          <i class="fa-solid fa-pause"></i> 
+        </button>
+        <button type="button" id="copyText"> 
+          <i class="fa-solid fa-copy"></i> 
+        </button><br>
+      </form>
+    </main>
+  </div>
+  <footer>©2024 Speech to Text.com</footer>
+  <script src="index.js"></script> <!-- Include your JavaScript here -->
+</body>
+</html>
