@@ -1,5 +1,8 @@
 # Speech-to-Text
 
 
-https://github.com/user-attachments/assets/d61483ab-c737-4f52-9020-4ef5b4c9977d
+
+
+
+https://github.com/user-attachments/assets/49f84e53-9f86-4f25-95a6-6db8ba573508
 
